@@ -44,7 +44,7 @@ Encoded categorical variables using one-hot encoding.
 Scaled numerical features using standardization or normalization.
 Data Splitting:
 
-Divided the dataset into training (80%) and testing (20%) sets.
+Divided the dataset into training and testing sets.
 Model Training:
 
 Fitted the linear regression model to the training data using Scikit-learn.
