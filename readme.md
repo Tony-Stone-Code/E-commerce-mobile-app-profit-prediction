@@ -32,7 +32,7 @@ To set up the project environment, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone git clone https://github.com/Tony-Stone-Code/GO2COD_DS_02.git
+   git clone git clone https://github.com/Tony-Stone-Code/E-commerce-mobile-app-profit-prediction.git
 
 ## Model Training
 The linear regression model was trained using the following steps:
