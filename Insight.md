@@ -1,26 +1,29 @@
-## Insights and Trends
+# Insight Report
 
-The following insights can be gained from the analysis of the data:
+## Data and Model Outcome Summary
+- Records analyzed: **500 customers**
+- Target average (Yearly Amount Spent): **$499.31**
+- Average session length: **33.05 minutes**
+- Average time on app: **12.05 minutes**
+- Average time on website: **37.06 minutes**
+- Average membership length: **3.53 years**
+- Model outcome (from notebook evaluation): **~$8 average prediction error (MAE)**
 
-### Insights
-1. **High Average Spending**: The mean "Yearly Amount Spent" is **$499.31**, indicating that customers are spending a significant amount on average. This suggests a potentially high-value customer base.
+## Key Business Insights
+1. **App engagement is a stronger profit signal than website time**  
+   The analysis notes clearer positive association between **Time on App** and yearly spending than with **Time on Website**.
 
-2. **Consistent Session Length**: The average session length of **33.05 minutes** is relatively stable, with a small standard deviation. This suggests that customers are engaging with the platform for a reasonable duration on average.
+2. **Membership duration is a major driver of customer value**  
+   Longer membership consistently aligns with higher spending, indicating loyalty programs can directly support revenue growth.
 
-3. **Time on App vs. Website**: The average time spent on the app (**12.05 minutes**) is significantly less than the time spent on the website (**37.06 minutes**). This could indicate that the website might be more feature-rich or that the app has a more streamlined, task-oriented design.
+3. **Customer value is generally stable, with room for premium expansion**  
+   Spending centers around roughly **$499**, suggesting a reliable baseline for forecasting and targeted upsell campaigns.
 
-4. **Membership Length**: The average membership length of **3.53 years** is fairly long, suggesting strong customer loyalty. The relatively low standard deviation indicates that there's a good deal of consistency in how long customers stay members.
+## Recommended Actions
+- Prioritize mobile app improvements that increase active usage and repeat actions.
+- Expand retention initiatives (loyalty tiers, renewal incentives, personalized offers).
+- Segment high-membership customers for premium bundles and lifetime-value campaigns.
 
-### Trends and Observations
-- **Potential Correlation**: The 50th percentile (median) for "Yearly Amount Spent" is **$499.31**, indicating a fairly symmetrical distribution of spending, with fewer extreme outliers on either side of the average.
-
-- **Time Spent on App**: While the average time spent on the app is lower than on the website, the maximum time spent on the app (**15.13 minutes**) is relatively close to the maximum time spent on the website (**40.01 minutes**). This might indicate that some users are engaging deeply with the app, perhaps for specific tasks or features.
-
-- **Membership Duration**: The maximum membership length of **6.92 years** is considerably higher than the average, indicating that some customers have been loyal members for a very long time.
-
-### Highlights
-- **Focus on App Engagement**: The relatively lower average time spent on the app could be an area for improvement. Consider exploring ways to enhance app features, provide more personalized content, or offer incentives for increased app usage.
-
-- **Customer Retention Strategies**: The long average membership length suggests that existing customer retention is already good. However, consider strategies to further incentivize long-term engagement and loyalty, such as tiered rewards programs or exclusive offers for high-value customers.
-
-- **Value-Oriented Marketing**: The high average spending could be a sign that your customer base is willing to invest in your products or services. You might be able to target them with premium offers or more personalized marketing messages.
+## Conclusion
+The current linear regression workflow provides practical predictive performance for planning.  
+The strongest strategic levers are **increasing app engagement** and **extending customer membership duration**.
