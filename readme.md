@@ -8,6 +8,7 @@ This project aims to predict the profit an e-commerce company can earn by improv
 - [Dataset](#dataset)
 - [Installation](#installation)
 - [Model Training](#model-training)
+- [Insights Report](#insights-report)
 
 ## Technologies Used
 - **Python**: The primary programming language used for data analysis and model training.
@@ -32,7 +33,8 @@ To set up the project environment, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone git clone https://github.com/Tony-Stone-Code/E-commerce-mobile-app-profit-prediction.git
+   git clone https://github.com/Tony-Stone-Code/E-commerce-mobile-app-profit-prediction.git
+   ```
 
 ## Model Training
 The linear regression model was trained using the following steps:
@@ -51,4 +53,18 @@ Fitted the linear regression model to the training data using Scikit-learn.
 Model Evaluation:
 
 Assessed the model performance using metrics such as R-squared and Mean Absolute Error (MAE).
-   
+
+## Insights Report
+The project insight report is available in [`Insight.md`](./Insight.md).
+
+### Highlights from the analysis
+- Dataset size: **500 customer records**
+- Average yearly amount spent: **$499.31**
+- Average time on app: **12.05 mins** vs website: **37.06 mins**
+- Average membership length: **3.53 years**
+- Model evaluation in notebook indicates approximately **$8 MAE**
+
+### Business takeaway
+The strongest opportunities to improve profit prediction outcomes and business value are:
+- increasing **mobile app engagement**
+- improving **customer retention / membership duration**
